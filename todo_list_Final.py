@@ -1,30 +1,3 @@
-"""
-========================================================
-  Google Sheets To-Do List App (Python + CustomTkinter)
-========================================================
-Author: Your Name
-GitHub: https://github.com/yourusername/todo-list-google-sheets
-Description:
-    A dark-themed To-Do list application with Google Sheets 
-    as the backend for storing tasks in real-time.
-
-    Features:
-    - Add new tasks
-    - Mark tasks as done
-    - Delete tasks
-    - Persistent storage via Google Sheets API
-    - Dark/Light mode UI toggle
-
-Setup:
-    1. Create a Google Cloud project and enable Google Sheets API.
-    2. Download your `sheet_credentials.json` file and place it
-       in the root folder of this project.
-    3. Install dependencies:
-       pip install gspread oauth2client customtkinter
-    4. Run the app:
-       python todo_app.py
-"""
-
 # ---------- Imports ----------
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
